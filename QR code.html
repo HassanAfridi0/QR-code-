@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Salman Electronics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Quick access: Shop Location & Website of Salman Electronics" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔌</text></svg>">
+  <style>
+    :root {
+      --radius:14px;
+      --shadow:0 25px 60px -10px rgba(0,0,0,0.25);
+      --gradient:linear-gradient(135deg,#6366f1 0%,#10b981 70%);
+      --transition:.25s cubic-bezier(.4,.2,.2,1);
+      font-family: "Poppins", system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+      color: #1f2d3d;
+      background: #f0f4fa;
+    }
+    *{box-sizing:border-box;}
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:1rem;
+      background: #0f1e3d url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" opacity="0.04"><circle cx="200" cy="200" r="200" fill="%23ffffff"/></svg>') no-repeat bottom left / cover;
+    }
+    .container{
+      width:100%;
+      max-width:420px;
+      background:#ffffff;
+      border-radius:18px;
+      padding:2rem 1.5rem;
+      position:relative;
+      overflow:hidden;
+      box-shadow: var(--shadow);
+      text-align:center;
+    }
+    .badge{
+      position:absolute;
+      top:12px;
+      right:12px;
+      background: #10b981;
+      color:#fff;
+      padding:6px 12px;
+      font-size:.65rem;
+      font-weight:600;
+      border-radius:999px;
+      letter-spacing:1px;
+    }
+    h1{
+      margin:0;
+      font-size:1.75rem;
+      line-height:1.1;
+      display:flex;
+      justify-content:center;
+      gap:8px;
+      align-items:center;
+      font-weight:600;
+    }
+    p{
+      margin:6px 0 20px;
+      font-size:.95rem;
+      color:#556e94;
+    }
+    .buttons{
+      display:grid;
+      gap:14px;
+    }
+    .btn{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      padding:14px 20px;
+      font-size:1rem;
+      font-weight:600;
+      border:none;
+      border-radius:10px;
+      text-decoration:none;
+      cursor:pointer;
+      transition: var(--transition);
+      position:relative;
+      overflow:hidden;
+    }
+    .btn svg{
+      width:20px;
+      height:20px;
+      flex-shrink:0;
+    }
+    .btn-location{
+      background: #6366f1;
+      color:#fff;
+    }
+    .btn-website{
+      background: #10b981;
+      color:#fff;
+    }
+    .btn:focus-visible{outline:3px solid rgba(99,102,241,.6);}
+    .btn:hover{filter:brightness(1.05);transform:translateY(-1px);}
+    .small{
+      font-size:.65rem;
+      margin-top:18px;
+      color:#889bb5;
+    }
+    .credit{
+      margin-top:12px;
+      font-size:.55rem;
+      color:#b0becf;
+    }
+    @media (prefers-color-scheme: dark){
+      body{background:#0f1e3d;}
+      .container{background:rgba(255,255,255,0.06);backdrop-filter:blur(12px);color:#f0f4fa;}
+      p{color:#c3d0ee;}
+      .small{color:#a3b5d6;}
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container" aria-label="Salman Electronics quick links">
+    <div class="badge">Quick Links</div>
+    <h1>
+      <span>🔌</span>
+      <span>Salman Electronics</span>
+    </h1>
+    <p>Pick what you need — shop location or visit our website.</p>
+    <div class="buttons">
+      <a class="btn btn-location" href="https://maps.app.goo.gl/dghbZYuD15sFUsZD9" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+        Shop Location
+      </a>
+      <a class="btn btn-website" href="https://salmanelectronics.com/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a9.93 9.93 0 0 0-3 .45l1.06 2.9A7.95 7.95 0 0 1 12 5c1.9 0 3.64.7 4.95 1.85l2.9-1.06A9.93 9.93 0 0 0 12 2zm0 4a5.99 5.99 0 0 0-4.25 1.55l1.75 1.75A3.99 3.99 0 0 1 12 8c.92 0 1.78.32 2.45.85l1.75-1.75A5.99 5.99 0 0 0 12 6zm0 4a1.99 1.99 0 0 0-1.41.59l1.41 1.41 1.41-1.41A1.99 1.99 0 0 0 12 10zm-6 8h12v2H6v-2zm0-2h12v2H6v-2zm0-2h12v2H6v-2z"/></svg>
+        Visit Website
+      </a>
+    </div>
+    <div class="small">Scan to choose. Works offline once loaded.</div>
+    <div class="credit">© Salman Electronics</div>
+  </div>
+</body>
+</html>
